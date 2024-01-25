@@ -21,7 +21,7 @@ function Header (){
                 <option>€ EUR</option>
               </select>
             </div>
-            <div className="right-phone-box hidden">
+            <div className="right-phone-box hidden md:flex flex-col-1">
               <p>
                 Call US :- <a href="#"> +11 900 800 100</a>
               </p>
@@ -47,8 +47,8 @@ function Header (){
               </ul>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div className="login-box">
+          <div className="">
+            <div className="login-box flex">
               <select
                 id="basic"
                 className="selectpicker show-tick form-control"
