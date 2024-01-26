@@ -11,8 +11,10 @@ function App() {
           Vite React Tailwind css project for Eshop
         </div>
         
+        
       </div>
       <Loading/>
+    
     </>
   );
 }

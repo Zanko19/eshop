@@ -6,7 +6,7 @@ import { faUser, faLocationArrow, faHeadset } from '@fortawesome/free-solid-svg-
 function Header (){
      return (
 <div className="top-0">
-<div className='absolute top-0 right-0'><DarkThemeToggle /></div>
+<div className="absolute right-0"><DarkThemeToggle /></div>
       <div className="container mx-auto">
         <div className="flex flex-row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -59,39 +59,36 @@ function Header (){
               </select>
             </div>
             <div className="text-slid-box hidden md:flex">
-              <div id="offer-box" className="carouselTicker">
-                <ul className="offer-box">
-                  <li>
-                    <i className="fab fa-opencart"></i> 20% off Entire Purchase
-                    Promo code: offT80
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> 50% - 80% off on
-                    Vegetables
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> Off 50%! Shop Now
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> 50% - 80% off on
-                    Vegetables
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> 20% off Entire Purchase
-                    Promo code: offT30
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> Off 50%! Shop Now
-                  </li>
-                </ul>
-              </div>
-            </div>
+  <div id="offer-box" className="carouselTicker">
+    <ul className="offer-box">
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> 50% - 80% off on Vegetables
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> Off 10%! Shop Vegetables
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> Off 50%! Shop Now
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> Off 10%! Shop Vegetables
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> 50% - 80% off on Vegetables
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
+      </li>
+      <li className="carouselTicker__item">
+        <i className="fab fa-opencart"></i> Off 50%! Shop Now
+      </li>
+    </ul>
+  </div>
+</div>
+<div className='absolute bottom-0 right-0' id="back-to-top"><a></a></div>
           </div>
         </div>
       </div>
