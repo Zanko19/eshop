@@ -13,7 +13,8 @@ function App() {
         
         
       </div>
-      <Loading/>
+    {/* <Loading/>
+  */}
     
     </>
   );
