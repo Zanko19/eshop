@@ -8,7 +8,7 @@ function App() {
     <Header />
       <div className="flex justify-center m-2 p-2">
         <div className="border border-black">
-          Vite React Tailwind css project for Eshop
+          Vite React Tailwind css project for Eshop idk
         </div>
         
         
